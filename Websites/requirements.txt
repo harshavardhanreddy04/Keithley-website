@@ -1,5 +1,5 @@
 streamlit
-pyvisa
+pyvisa-py
 numpy
 matplotlib
 pandas
