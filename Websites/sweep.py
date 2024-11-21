@@ -41,7 +41,7 @@ def main():
             multimeter.write(f":SENS:CURR:PROT {source_limit}")
             
             # Set the best fixed range for source measurements
-            multimeter.write(":SENS:CURR:RANG 0.1")       # Fixed current range
+            multimeter.write(":SENS:CURR:RANG 1")       # Fixed current range
             multimeter.write(":SOUR:RANG:AUTO OFF")        # Disable auto-ranging for the source
 
             # Power On the Keithley output
